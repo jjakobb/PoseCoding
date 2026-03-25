@@ -1,0 +1,16 @@
+name: posecoding
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy=1.23
+  - matplotlib
+  - pandas
+  - scikit-learn
+  - pip
+  - pip:
+    - opencv-python
+    - mediapipe==0.10.13
+    - protobuf==4.25.3
+    - python-osc
